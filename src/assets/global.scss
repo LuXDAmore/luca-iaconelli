@@ -1,0 +1,29 @@
+/*
+    .is-ie-11 {}
+
+    .is-accessible {
+
+        .mds-button {
+
+            &--primary {
+
+                &,
+                * {
+
+                    color: #FFF !important;
+                    background-color: #333 !important;
+
+                }
+
+            }
+
+        }
+
+    }
+*/
+
+.mds-news .mds-card__media .mds-image__container .mds-image {
+
+    @apply .h-full;
+
+}

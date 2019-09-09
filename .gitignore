@@ -1,0 +1,64 @@
+# Common
+.DS_Store
+.env
+desktop.ini
+node_modules/
+bower_components/
+
+# Library
+dist/demo.html
+
+# Nuxt
+.nuxt/
+src/static/browserconfig.xml
+src/static/sw.js
+
+# NativeScript
+hooks/
+!hooks/after-createProject/*.js
+node_modules/
+platforms/
+
+# NativeScript Template
+*.js.map
+!webpack.config.js
+*.css
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea
+.cloud
+.project
+tmp/
+typings/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+report.*
+*.heapsnapshot
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*

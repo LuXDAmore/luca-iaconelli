@@ -1,0 +1,9 @@
+webpack.config.js
+src/static
+dist/
+hooks/
+
+bower_components/
+node_modules/
+.vscode/
+docs/
