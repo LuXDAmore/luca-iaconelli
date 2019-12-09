@@ -1,46 +1,42 @@
-# Drink & D-Rank // App, Website, PWA
+# 🎉 Luca Iaconelli
 
-[DEMO](https://luxdamore.github.io/drink-and-drank)
+[![License][license-src]][license-href]
 
-## Installation
+> My personal website
 
-```bash
+## Development
 
-    # Clone the repo
-    git clone https://github.com/LuXDAmore/drink-and-drank
+1. Clone this repository;
+2. Install dependencies using `yarn install` or `npm install`;
+3. Start development server using `npm run dev`.
 
-    # Deps
-    npm install
+[license-src]: https://img.shields.io/npm/l/@luxdamore/nuxt-apis-to-file.svg?style=flat-square
+[license-href]: https://npmjs.com/package/@luxdamore/nuxt-apis-to-file
 
-```
+## 🐞 Issues
 
-### Usage
+Please make sure to read the [Issue Reporting Checklist](/.github/ISSUE_TEMPLATE/bug_report.md) before opening an issue. Issues not conforming to the guidelines may be closed immediately.
 
-```bash
+## 👥 Contribution
 
-    # Nuxt
-    npm run ssr
+Please make sure to read the [Contributing Guide](/.github/ISSUE_TEMPLATE/feature_request.md) before making a pull request.
 
-    # Nativescript
-    npm run android
-    npm run ios
+## 📖 Changelog
 
-```
+Details changes for each release are documented in the [**release notes**](./CHANGELOG.md).
 
-## Issues
+### 📃 License
 
-Please make sure to read the [Issue Reporting Checklist](https://github.com/LuXDAmore/drink-and-drank/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) before opening an issue. Issues not conforming to the guidelines may be closed immediately.
+[MIT License](./LICENSE) // Copyright (©) 2019-present [Luca Iaconelli](https://lucaiaconelli.it)
 
-## Contribution
+#### 💸 Are you feeling generous today?  :)
 
-Please make sure to read the [Contributing Guide](https://github.com/LuXDAmore/drink-and-drank/blob/master/.github/ISSUE_TEMPLATE/feature_request.md) before making a pull request.
+Do you want to share a beer? We can be good friends.. __[Paypal](https://www.paypal.me/luxdamore) // [Patreon](https://www.patreon.com/luxdamore)__
 
-## Changelog
+> _It's always a good day to be magnanimous - cit_
 
-Details changes for each release are documented in the [release notes](https://github.com/LuXDAmore/drink-and-drank/blob/master/CHANGELOG.md).
+#### 💼 Hire me
 
-## License
+[![Otechie](https://api.otechie.com/consultancy/luxdamore/badge.svg)](https://otechie.com/luxdamore)
 
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2019-present Luca Iaconelli
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/luxdamore)

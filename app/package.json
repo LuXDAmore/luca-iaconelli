@@ -1,9 +1,0 @@
-{
-    "main": "app.js",
-    "version": "1.0.0",
-    "name": "drink-and-drank",
-    "android": {
-        "v8Flags": "--expose_gc",
-        "markingMode": "none"
-    }
-}

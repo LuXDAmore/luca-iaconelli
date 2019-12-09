@@ -3,6 +3,7 @@
     // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
     // List of extensions which should be recommended for users of this workspace.
     "recommendations": [
+        "octref.vetur",
         "formulahendry.auto-close-tag",
         "formulahendry.auto-rename-tag",
         "kevinkyang.auto-comment-blocks",
@@ -13,15 +14,12 @@
         "mohseenrm.lit-it",
         "mubaidr.vuejs-extension-pack",
         "jeremyrajan.webpack",
-        "sysoev.language-stylus",
-        "mikestead.dotenv",
         "eg2.vscode-npm-script",
         "wallabyjs.quokka-vscode",
         "mrmlnc.vscode-attrs-sorter",
         "wayou.vscode-todo-highlight",
-        "shinnn.stylelint",
+        "kumar-harsh.graphql-for-vscode",
         "jock.svg",
-        "octref.vetur",
         "dariofuzinato.vue-peek",
         "christian-kohler.npm-intellisense",
         "sdras.vue-vscode-snippets",
@@ -34,12 +32,8 @@
         "esbenp.prettier-vscode",
         "cssho.vscode-svgviewer",
         "dotjoshjohnson.xml",
-        "cpylua.language-postcss",
         "donjayamanne.githistory",
-        "eamodio.gitlens",
-        "bradlc.vscode-tailwindcss",
-        "kumar-harsh.graphql-for-vscode",
-        "tombonnike.vscode-status-bar-format-toggle"
+        "eamodio.gitlens"
     ],
     // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
     "unwantedRecommendations": []

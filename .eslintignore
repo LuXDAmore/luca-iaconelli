@@ -1,9 +1,7 @@
-webpack.config.js
-src/static
-dist/
-hooks/
+# Common
+node_modules
+dist
+.nuxt
+coverage
 
-bower_components/
-node_modules/
-.vscode/
-docs/
+docs

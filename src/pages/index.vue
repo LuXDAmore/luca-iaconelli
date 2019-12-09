@@ -1,18 +1,12 @@
 <template>
-    <h1>Drink & D-Rank</h1>
+    <main>
+        <h1>Luca Iaconelli</h1>
+        <h2>
+            Description
+        </h2>
+    </main>
 </template>
 
 <script>
-    export default {
-        name: 'homepage',
-        created() {
-
-            this.$router.push(
-                {
-                    name: 'drink-and-drank',
-                }
-            );
-
-        },
-    };
+    export default {};
 </script>

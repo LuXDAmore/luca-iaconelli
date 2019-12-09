@@ -1,28 +1,13 @@
 module.exports = {
     root: true,
-    globals: {
-        process: true,
-        module: true,
-        require: true,
-        TNS_ENV: true,
-    },
-    env: {
-        es6: true,
-        browser: true,
-    },
     parserOptions: {
         parser: 'babel-eslint',
         sourceType: 'module',
-        ecmaVersion: 2019,
-        ecmaFeature: {
-            experimentalObjectRestSpread: true,
-            impliedStrict: true,
-            classes: true,
-        },
     },
     extends: [
         '@nuxtjs',
         'eslint:recommended',
+        'plugin:nuxt/recommended',
         'plugin:vue/recommended',
         '@vue/prettier',
     ],
@@ -34,8 +19,9 @@ module.exports = {
         'unicorn',
     ],
     rules: {
-        'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+        'indent': 'off',
+        'no-console': 'off',
+        'no-debugger': 'error',
         'one-var': [
             'warn',
             {
@@ -46,7 +32,9 @@ module.exports = {
             }
         ],
         'spaced-comment': [ 'warn', 'always' ],
+        'function-call-argument-newline': [ 'warn', 'always' ],
         'prefer-const': 'warn',
+        'no-useless-rename': 'warn',
         'rest-spread-spacing': [
             'warn',
             'always',
@@ -80,6 +68,16 @@ module.exports = {
             '1tbs',
             {
                 allowSingleLine: true,
+            }
+        ],
+        'comma-style': [
+            'warn',
+            'first',
+            {
+                exceptions: {
+                    ArrayExpression: true,
+                    ObjectExpression: true,
+                }
             }
         ],
         'comma-spacing': [
@@ -253,7 +251,13 @@ module.exports = {
         'require-atomic-updates': 'warn',
         'comma-dangle': [
             'warn',
-            'always-multiline',
+            {
+                arrays: 'always-multiline',
+                objects: 'always-multiline',
+                exports: 'always-multiline',
+                imports: 'always-multiline',
+                functions: 'only-multiline',
+            }
         ],
         'dot-notation': 'warn',
         'eqeqeq': [ 'warn', 'always' ],
@@ -363,8 +367,10 @@ module.exports = {
             'warn',
             {
                 vars: 'all',
-                args: 'none', // This needs to be off so we can specify mixin interfaces
-                ignoreRestSiblings: false,
+                args: 'after-used', // This needs to be off so we can specify mixin interfaces
+                ignoreRestSiblings: true,
+                caughtErrors: 'all',
+                argsIgnorePattern: '^_',
             }
         ],
         'max-len': [
@@ -425,16 +431,7 @@ module.exports = {
         ],
         'vue/attribute-hyphenation': [
             'warn',
-            'always',
-            {
-                ignore: [
-                    'drawerContent',
-                    'mainContent',
-                    'ios.systemIcon',
-                    'android.iconVisibility',
-                    'android.systemIcon',
-                ],
-            },
+            'always'
         ],
         'vue/max-attributes-per-line': [
             'warn',
@@ -481,4 +478,4 @@ module.exports = {
             }
         ],
     },
-};
+}
