@@ -42,11 +42,11 @@
         "docs"
     ],
     "dependencies": {
-        "nuxt": "^2.10.2"
+        "nuxt": "^2.15.3"
     },
     "devDependencies": {
         "@babel/core": "latest",
-        "@babel/preset-env": "^7.7.6",
+        "@babel/preset-env": "^7.13.12",
         "@commitlint/cli": "latest",
         "@commitlint/config-conventional": "latest",
         "@nuxtjs/eslint-config": "latest",
@@ -58,7 +58,7 @@
         "eslint-config-standard": "latest",
         "eslint-loader": "latest",
         "eslint-plugin-compat": "latest",
-        "eslint-plugin-import": "^2.19.1",
+        "eslint-plugin-import": "^2.22.1",
         "eslint-plugin-node": "latest",
         "eslint-plugin-nuxt": "latest",
         "eslint-plugin-prettier": "latest",
