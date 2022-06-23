@@ -69,7 +69,7 @@
         "get-port": "latest",
         "husky": "latest",
         "jest": "latest",
-        "jsdom": "^15.2.1",
+        "jsdom": "^16.5.0",
         "prettier": "latest",
         "prettier-eslint": "latest",
         "request": "latest",
